@@ -15,6 +15,9 @@
 		4710A0681EB3149500B747F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4710A0661EB3149500B747F9 /* LaunchScreen.storyboard */; };
 		4710A0731EB3149600B747F9 /* LMLPopupShowSuccessOrFailViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4710A0721EB3149600B747F9 /* LMLPopupShowSuccessOrFailViewTests.m */; };
 		4710A07E1EB3149600B747F9 /* LMLPopupShowSuccessOrFailViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4710A07D1EB3149600B747F9 /* LMLPopupShowSuccessOrFailViewUITests.m */; };
+		4710A08E1EB314C300B747F9 /* LMLPopupShowSuccessOrFailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4710A08D1EB314C300B747F9 /* LMLPopupShowSuccessOrFailView.m */; };
+		4710A0901EB3155600B747F9 /* LMLPopupShowSuccessOrFailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4710A08F1EB3155600B747F9 /* LMLPopupShowSuccessOrFailView.xib */; };
+		4710A0921EB316E800B747F9 /* LMLPopupShowSuccessOrFailView.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4710A0911EB316E800B747F9 /* LMLPopupShowSuccessOrFailView.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		4710A0791EB3149600B747F9 /* LMLPopupShowSuccessOrFailViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMLPopupShowSuccessOrFailViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4710A07D1EB3149600B747F9 /* LMLPopupShowSuccessOrFailViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMLPopupShowSuccessOrFailViewUITests.m; sourceTree = "<group>"; };
 		4710A07F1EB3149600B747F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4710A08C1EB314C300B747F9 /* LMLPopupShowSuccessOrFailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMLPopupShowSuccessOrFailView.h; sourceTree = "<group>"; };
+		4710A08D1EB314C300B747F9 /* LMLPopupShowSuccessOrFailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMLPopupShowSuccessOrFailView.m; sourceTree = "<group>"; };
+		4710A08F1EB3155600B747F9 /* LMLPopupShowSuccessOrFailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMLPopupShowSuccessOrFailView.xib; sourceTree = "<group>"; };
+		4710A0911EB316E800B747F9 /* LMLPopupShowSuccessOrFailView.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LMLPopupShowSuccessOrFailView.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +113,7 @@
 				4710A05E1EB3149500B747F9 /* ViewController.h */,
 				4710A05F1EB3149500B747F9 /* ViewController.m */,
 				4710A0611EB3149500B747F9 /* Main.storyboard */,
+				4710A08B1EB314B100B747F9 /* LMLPopupShowSuccessOrFailView */,
 				4710A0641EB3149500B747F9 /* Assets.xcassets */,
 				4710A0661EB3149500B747F9 /* LaunchScreen.storyboard */,
 				4710A0691EB3149500B747F9 /* Info.plist */,
@@ -138,6 +146,17 @@
 				4710A07F1EB3149600B747F9 /* Info.plist */,
 			);
 			path = LMLPopupShowSuccessOrFailViewUITests;
+			sourceTree = "<group>";
+		};
+		4710A08B1EB314B100B747F9 /* LMLPopupShowSuccessOrFailView */ = {
+			isa = PBXGroup;
+			children = (
+				4710A08C1EB314C300B747F9 /* LMLPopupShowSuccessOrFailView.h */,
+				4710A08D1EB314C300B747F9 /* LMLPopupShowSuccessOrFailView.m */,
+				4710A0911EB316E800B747F9 /* LMLPopupShowSuccessOrFailView.xcassets */,
+				4710A08F1EB3155600B747F9 /* LMLPopupShowSuccessOrFailView.xib */,
+			);
+			path = LMLPopupShowSuccessOrFailView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +268,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4710A0921EB316E800B747F9 /* LMLPopupShowSuccessOrFailView.xcassets in Resources */,
 				4710A0681EB3149500B747F9 /* LaunchScreen.storyboard in Resources */,
 				4710A0651EB3149500B747F9 /* Assets.xcassets in Resources */,
 				4710A0631EB3149500B747F9 /* Main.storyboard in Resources */,
+				4710A0901EB3155600B747F9 /* LMLPopupShowSuccessOrFailView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4710A0601EB3149500B747F9 /* ViewController.m in Sources */,
+				4710A08E1EB314C300B747F9 /* LMLPopupShowSuccessOrFailView.m in Sources */,
 				4710A05D1EB3149500B747F9 /* AppDelegate.m in Sources */,
 				4710A05A1EB3149500B747F9 /* main.m in Sources */,
 			);
